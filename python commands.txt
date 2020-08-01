@@ -1,0 +1,9 @@
+python3 -m venv .venv // to create virtual environment
+pip install -r requirements.txt // to install all dependencies
+pip freeze > requirements.txt // when u install packages and save it in requirements
+pip install numpy
+pip list // lists pip packages installed
+
+// setup these in python workspace settings
+"python.pythonPath": "/path/to/your/venv/bin/python", // locating python libraries
+"python.autoComplete.extraPaths": ["./path-to-your-code"], // locating your libraries
